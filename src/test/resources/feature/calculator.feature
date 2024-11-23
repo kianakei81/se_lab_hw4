@@ -3,9 +3,9 @@ Feature: Calculator operations
   Scenario Outline: Perform basic operations
     Given the first operand is <operand1>
     And the second operand is <operand2>
-    And the operator is <operator>
+    And the operator is "<operator>"
     When the calculation is performed
-    Then the result should be <result>
+    Then the result should be "<result>"
 
     Examples:
       | operand1 | operand2 | operator | result  |
